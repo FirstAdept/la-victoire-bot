@@ -268,7 +268,7 @@ app.listen(PORT, () => {
      La Victoire WhatsApp Bot
      Platform: WaSenderAPI
      Port: ${PORT}
-     Webhook: https://YOUR_DOMAIN/webhook
+     Webhook: https://motivated-emotion-production-badf.up.railway.app/webhook
   🍸 ====================================
   `);
 });
