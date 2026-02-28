@@ -261,15 +261,13 @@ app.get("/", (req, res) => {
 // ==========================================
 // 🚀 Запуск
 // ==========================================
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, () => {
   console.log(`
-=============================
-La Victoire WhatsApp Bot
-Platform: WaSenderAPI
-Port: ${PORT}
-Webhook: https://motivated-emotion-production-badf.up.railway.app/webhook
-=============================
-`);
+  🍸 ====================================
+     La Victoire WhatsApp Bot
+     Platform: WaSenderAPI
+     Port: ${PORT}
+     Webhook: https://YOUR_DOMAIN/webhook
+  🍸 ====================================
+  `);
 });
